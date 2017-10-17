@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="bottom">
+        <ImageView
+            android:id="@+id/detailIV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView android:id="@+id/tvDetail"
+            style="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hola" />
+
+        <TextView android:id="@+id/tvDetailDesc"
+            style="?android:textAppearanceSmall"
+            android:textAllCaps="true"
+            android:textColor="#80ffffff"
+            android:textStyle="bold"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="algo" />
+
+    </LinearLayout>
+</ScrollView>
